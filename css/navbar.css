@@ -1,0 +1,81 @@
+.main-header {
+  position: sticky;
+  top: 0px;
+  max-height: 50px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: none;
+  overflow: hidden;
+
+  font-family: KGothic;
+
+  background-color: black;
+
+}
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 1.5;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  font-size: large;
+}
+
+nav ul li span {
+  opacity: 0.5;
+}
+
+nav ul li span:hover {
+  opacity: 1;
+}
+
+.active {
+  color: pink;
+  opacity:1;
+}
+
+
+.hover-underline::before {
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background-color: pink;
+
+}
+
+
+.hover-underline::before {
+  width: 0%;
+  bottom: 0px;
+}
+
+.hover-underline:hover::before {
+  width: 90%;
+}

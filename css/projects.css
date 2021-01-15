@@ -1,0 +1,86 @@
+#projects-wrapper {
+  width: 95%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  /* grid-template-rows: repeat(3, auto); */
+  grid-row-gap: 5%;
+
+  /* color: white; */
+}
+
+.project-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 360px;
+  width: 100%;;
+
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, auto);
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 20px 5px gray;
+  /* height: 500px; */
+}
+
+.project-title {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+#project-2 .project-title {
+  width: max-content;
+}
+
+.project-subtitle {
+  grid-column: 2 / span 3;
+  grid-row: 4;
+  text-align: center;
+}
+
+.project-blurb-left {
+  grid-column: 1;
+  text-align: center;
+  width: 90%;
+  grid-row: 2;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-blurb-right {
+  grid-column: 5;
+  text-align: center;
+  width: 90%;
+  grid-row: 2;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#project-1 {
+  /* border: 5px solid pink; */
+}
+
+#project-1-image {
+  background-image: url("../images/RaiderRumble.png");
+}
+
+#project-2-image {
+  background-image: url("../images/老い展チラシ.jpg");
+}
+
+/* #Raider-Rumble-Image {
+  background-image: url("../images/RaiderRumble.png");
+} */
