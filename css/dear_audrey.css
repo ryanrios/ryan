@@ -240,6 +240,10 @@ h2 {
   background-size: cover;
 }
 
+table {
+  margin: auto;
+}
+
 
 #stars {
   width: 1px;
